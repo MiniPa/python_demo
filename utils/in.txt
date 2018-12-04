@@ -1,0 +1,3671 @@
+{ 
+    "_id" : "4fedda28-c8f8-4767-b98e-a54641965c32", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "system", 
+    "password" : "password!123", 
+    "realname" : "系统", 
+    "roles" : [
+        NumberInt(3)
+    ], 
+    "state" : "ACTIVE", 
+    "type" : "COMPANY", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-11T07:27:09.892+0000")
+}
+{ 
+    "_id" : "84680e20-5e75-4208-a6d9-61873cafaa45", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "departmentId" : "RESEARCH", 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "manager" : true, 
+    "password" : "123", 
+    "realname" : "课程经理", 
+    "roles" : [
+        NumberInt(27)
+    ], 
+    "state" : "ACTIVE", 
+    "username" : "COURSE_MANAGER", 
+    "role" : {
+        "_id" : 27.0, 
+        "className" : "com.liangzhi.erp.ui.domain.Role", 
+        "description" : "COURSE_MANAGER"
+    }
+}
+{ 
+    "_id" : "84680e20-5e75-4208-a6d9-61873cafaabb", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "departmentId" : "RESEARCH", 
+    "departments" : [
+        "EXECUTIVE"
+    ], 
+    "manager" : true, 
+    "password" : "123", 
+    "realname" : "管理层1", 
+    "role" : {
+        "_id" : 1.0, 
+        "className" : "com.liangzhi.erp.ui.domain.Role", 
+        "description" : "ADMIN"
+    }, 
+    "roles" : [
+        NumberInt(1)
+    ], 
+    "state" : "ACTIVE", 
+    "username" : "EXECUTIVE"
+}
+{ 
+    "_id" : "84680e20-5e75-4208-a6d9-61873cafaab2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "departmentId" : "ACADEMIC_OPERATIONS", 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "manager" : false, 
+    "password" : "123", 
+    "realname" : "培训教学部-乙", 
+    "role" : {
+        "_id" : 22.0, 
+        "className" : "com.liangzhi.erp.ui.domain.Role", 
+        "description" : "PROJECT_MANAGEMENT"
+    }, 
+    "roles" : [
+        NumberInt(22)
+    ], 
+    "state" : "ACTIVE", 
+    "username" : "ACADEMIC_OPERATIONS2"
+}
+{ 
+    "_id" : "84680e20-5e75-4208-a6d9-61873cafaab3", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "departmentId" : "ACADEMIC_OPERATIONS", 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "manager" : false, 
+    "password" : "123", 
+    "realname" : "培训教学部-甲", 
+    "state" : "ACTIVE", 
+    "username" : "ACADEMIC_OPERATIONS1"
+}
+{ 
+    "_id" : "84680e20-5e75-4208-a6d9-61873cafaab4", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "departmentId" : "ACADEMIC_OPERATIONS", 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "manager" : true, 
+    "password" : "123", 
+    "realname" : "培训教学部-管理员", 
+    "state" : "ACTIVE", 
+    "username" : "ACADEMIC_OPERATIONS"
+}
+{ 
+    "_id" : "84680e20-5e75-4208-a6d9-61873cafaab5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "departmentId" : "PROJECT_MANAGEMENT", 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "manager" : true, 
+    "password" : "123", 
+    "realname" : "项目管理部-管理员", 
+    "state" : "ACTIVE", 
+    "username" : "PROJECT_MANAGEMENT"
+}
+{ 
+    "_id" : "84680e20-5e75-4208-a6d9-61873cafaab6", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "departmentId" : "PROJECT_MANAGEMENT", 
+    "departments" : [
+        "PROJECT_MANAGEMENT", 
+        "PROJECT_OPERATIONS"
+    ], 
+    "manager" : false, 
+    "password" : "123", 
+    "realname" : "项目管理部-甲", 
+    "state" : "ACTIVE", 
+    "username" : "PROJECT_MANAGEMENT1"
+}
+{ 
+    "_id" : "84680e20-5e75-4208-a6d9-61873cafaab7", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "departmentId" : "PROJECT_MANAGEMENT", 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "manager" : false, 
+    "password" : "123", 
+    "realname" : "项目管理部-乙", 
+    "state" : "ACTIVE", 
+    "username" : "PROJECT_MANAGEMENT2"
+}
+{ 
+    "_id" : "84680e20-5e75-4208-a6d9-61873caf1234", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "manager" : true, 
+    "password" : "stem123", 
+    "realname" : "超级管理员", 
+    "roles" : [
+        3.0
+    ], 
+    "state" : "ACTIVE", 
+    "username" : "SUPER_ADMIN", 
+    "role" : {
+        "_id" : 3.0, 
+        "className" : "com.liangzhi.erp.ui.domain.Role", 
+        "description" : "SUPER_ADMIN"
+    }
+}
+{ 
+    "_id" : "84680e20-5e75-4208-a6d9-61873cafaa55", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "departmentId" : "TECHNOLOGY", 
+    "departments" : [
+        "TECHNOLOGY", 
+        "BUSINESS_SUPPORT"
+    ], 
+    "manager" : false, 
+    "password" : "123", 
+    "realname" : "信息中心程久顺", 
+    "role" : {
+        "_id" : 2.0, 
+        "className" : "com.liangzhi.erp.ui.domain.Role", 
+        "description" : "REGULAR_USER"
+    }, 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "state" : "ACTIVE", 
+    "username" : "jiushun.cheng"
+}
+{ 
+    "_id" : "dcff1e83-095f-4713-b9ed-bf01496ff746", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "hao.yang", 
+    "password" : "123", 
+    "realname" : "杨浩", 
+    "roles" : [
+        3.0
+    ], 
+    "departments" : [
+        "TECHNOLOGY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2018-11-12T01:38:55.125+0000")
+}
+{ 
+    "_id" : "6e6f1fac-5611-4c80-8084-493bf33ff22f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "supply_manager2", 
+    "password" : "1", 
+    "realname" : "供应链", 
+    "roles" : [
+        NumberInt(21)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-11-13T02:39:02.700+0000")
+}
+{ 
+    "_id" : "84680e20-5e75-4208-a6d9-61873cafaa23", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "PRODUCTON_MANAGER", 
+    "password" : "123", 
+    "realname" : "产品部主管审核人", 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "departmentId" : "SUPPLY", 
+    "departments" : [
+        "SUPPLY"
+    ]
+}
+{ 
+    "_id" : "4fedda28-c8f8-3333-b98e-a54641965c32", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "super_admin", 
+    "password" : "stem123", 
+    "realname" : "超级管理员", 
+    "roles" : [
+        NumberInt(3)
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-11T07:27:09.892+0000")
+}
+{ 
+    "_id" : "ecaf8b3f-02a9-42ee-8430-6386f312de29", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "superadmin", 
+    "password" : "stem123", 
+    "realname" : "超级管理员", 
+    "roles" : [
+        NumberInt(3)
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-04-04T21:07:05.915+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.138+0000")
+}
+{ 
+    "_id" : "92d27250-9c66-4add-b98f-11d98c0cfdce", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yizhong.zhang", 
+    "password" : "stem123", 
+    "realname" : "张逸中", 
+    "roles" : [
+        NumberInt(3), 
+        NumberInt(4), 
+        NumberInt(5), 
+        NumberInt(6)
+    ], 
+    "departments" : [
+        "EXECUTIVE"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-04-04T21:07:05.915+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.057+0000")
+}
+{ 
+    "_id" : "ad87eb6b-5ef4-4768-a189-aa9564817418", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "rui.wang", 
+    "password" : "stem123", 
+    "realname" : "王瑞", 
+    "roles" : [
+        NumberInt(3), 
+        NumberInt(4), 
+        NumberInt(7), 
+        NumberInt(8), 
+        NumberInt(9), 
+        NumberInt(15)
+    ], 
+    "departments" : [
+        "EXECUTIVE", 
+        "PROJECT_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-04-04T21:07:05.915+0000"), 
+    "updated" : ISODate("2018-05-29T09:45:47.527+0000")
+}
+{ 
+    "_id" : "edb5cea1-4033-445a-95cc-22dcd2f2a0c9", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "nick.zhu", 
+    "password" : "stem123", 
+    "realname" : "Nick", 
+    "roles" : [
+        NumberInt(3), 
+        NumberInt(4), 
+        NumberInt(5), 
+        NumberInt(6)
+    ], 
+    "departments" : [
+        "EXECUTIVE"
+    ], 
+    "state" : "INACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-04-04T21:07:05.915+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.004+0000")
+}
+{ 
+    "_id" : "1a959f99-bcf9-40ee-a017-bec25c6b980f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "li.peng", 
+    "password" : "stem123", 
+    "realname" : "彭丽", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(6), 
+        NumberInt(9), 
+        NumberInt(20)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-04-04T21:07:05.915+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.060+0000"), 
+    "projectViewList" : [
+        "6c99307b-20fc-4500-afca-f52b3cefa37c"
+    ]
+}
+{ 
+    "_id" : "41a6eb35-9ae7-40e8-8f48-0c0ec6802e61", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "siqian.wu", 
+    "password" : "stem123", 
+    "realname" : "吴思倩", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(6), 
+        NumberInt(9), 
+        NumberInt(24), 
+        NumberInt(28)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2016-04-04T21:07:05.915+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.028+0000"), 
+    "projectViewList" : [
+        "9e64b4cd-3c96-4e3e-8ef9-ab85b67e834d"
+    ]
+}
+{ 
+    "_id" : "ae6861f2-6a9a-4942-ac32-c2009774a2a9", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "kangkai", 
+    "password" : "stem123", 
+    "realname" : "亢凯", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(6)
+    ], 
+    "state" : "INACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-04-04T21:07:05.915+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.010+0000")
+}
+{ 
+    "_id" : "7ffd9d0c-f388-4bff-a4a0-23e501dc3d02", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lanlan.shu", 
+    "password" : "stem123", 
+    "realname" : "舒兰兰", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(6), 
+        NumberInt(19), 
+        NumberInt(20)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-04-04T21:07:05.915+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.128+0000")
+}
+{ 
+    "_id" : "5a181611-3e6b-4b36-a9c4-0e65d9606697", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "hr", 
+    "password" : "stem123", 
+    "realname" : "人事", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(7), 
+        NumberInt(16), 
+        NumberInt(17)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES"
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-04-04T21:07:05.915+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.011+0000")
+}
+{ 
+    "_id" : "b3af2810-1d74-48b8-9c7b-a1e8d0380aa6", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "admin", 
+    "password" : "stem123", 
+    "realname" : "行政", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(4), 
+        NumberInt(6), 
+        NumberInt(8)
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-04-04T21:07:05.915+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.132+0000")
+}
+{ 
+    "_id" : "069a9b01-e38c-46a2-b161-05e6af0f3660", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "di.zhao", 
+    "password" : "stem123", 
+    "realname" : "赵迪", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-06-27T20:42:51.179+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.137+0000")
+}
+{ 
+    "_id" : "8023f8d8-3866-4dae-b67c-c55b49a6a0a5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "kun.tang", 
+    "password" : "stem123", 
+    "realname" : "唐坤", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(7), 
+        NumberInt(18), 
+        NumberInt(19)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-06-27T20:43:47.169+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.033+0000")
+}
+{ 
+    "_id" : "1d560b69-6f17-4bfa-a6b2-1392d4a510eb", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "finance", 
+    "password" : "stem123", 
+    "realname" : "财务", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(4), 
+        NumberInt(6), 
+        NumberInt(8), 
+        NumberInt(10), 
+        NumberInt(12)
+    ], 
+    "departments" : [
+        "FINANCE", 
+        "SUPPLY"
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-06-27T20:42:51.179+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.135+0000")
+}
+{ 
+    "_id" : "75674e4e-4891-48f6-906a-a5b02c2f5a5f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "sisi.lu", 
+    "password" : "stem123", 
+    "realname" : "陆思思", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-07-05T20:43:47.169+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.142+0000")
+}
+{ 
+    "_id" : "db2d05c5-6080-4c52-8082-67bbfaaf861f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lingling.wang", 
+    "password" : "stem123", 
+    "realname" : "王玲玲", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-07-05T20:43:47.169+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.088+0000")
+}
+{ 
+    "_id" : "06fdd0e4-a7ff-4382-b711-ff1c7055f8ef", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "chenglong.tang", 
+    "password" : "stem123", 
+    "realname" : "汤成龙", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(24), 
+        NumberInt(10)
+    ], 
+    "departments" : [
+        "FINANCE"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-07-05T20:43:47.169+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.076+0000"), 
+    "projectViewList" : [
+        "017229ed-83d6-4a01-9894-d51acefc2987", 
+        "1b56d351-5991-43b1-a0db-a060a3e20c59", 
+        "2d57f13a-0ac6-4818-803d-bc2df39bc48a", 
+        "88e37054-5d97-4c5f-ac08-7169e615c655", 
+        "e2fa6734-49ef-4483-bd93-036759d3374e", 
+        "faf4af52-70af-4b6e-8fd6-ddf6d3e9e014"
+    ]
+}
+{ 
+    "_id" : "53b30119-98e0-42c7-aeb8-36c257fd002d", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yingyao.liu", 
+    "password" : "stem123", 
+    "realname" : "刘颖耀", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-07-05T20:43:47.169+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.018+0000")
+}
+{ 
+    "_id" : "c6ff17ac-2240-4406-9cb2-b7df92a4efcc", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "company", 
+    "password" : "stem123", 
+    "realname" : "公司", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(13)
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-07-11T20:43:47.169+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.012+0000")
+}
+{ 
+    "_id" : "0ad1d489-9e0a-4337-87fe-4abaa9838abd", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "parttimeteacher", 
+    "password" : "stem123", 
+    "realname" : "测试兼职教师", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-07-11T20:43:47.169+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.077+0000")
+}
+{ 
+    "_id" : "90ad928e-7376-4927-bf9f-e74f62baa8e5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lizhe.li", 
+    "password" : "stem123", 
+    "realname" : "李力哲", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(9), 
+        NumberInt(15)
+    ], 
+    "departments" : [
+        "BUSINESS", 
+        "BUSINESS_NORTH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-07-27T05:21:50.423+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.064+0000"), 
+    "projectViewList" : [
+        "6c97f452-44a0-4e01-a66d-deedb3a5703f"
+    ]
+}
+{ 
+    "_id" : "96ec9d24-d8f6-4b93-a830-047d68b3fde5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "zhaoxiang.hu", 
+    "password" : "stem123", 
+    "realname" : "胡兆祥", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(9), 
+        NumberInt(15)
+    ], 
+    "departments" : [
+        "BUSINESS"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-07-27T05:22:13.634+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.126+0000")
+}
+{ 
+    "_id" : "f4f48df0-f075-4aeb-9a35-03682a62a359", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "mingjing.ye", 
+    "password" : "stem123", 
+    "realname" : "叶明敬", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(15), 
+        NumberInt(20), 
+        NumberInt(24)
+    ], 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : true, 
+    "created" : ISODate("2016-07-27T05:23:52.394+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.024+0000"), 
+    "projectViewList" : [
+        "1b56d351-5991-43b1-a0db-a060a3e20c59"
+    ]
+}
+{ 
+    "_id" : "98f0b19d-ad9c-4ffc-9f87-4994cf6a10fb", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "manufacture", 
+    "password" : "stem123", 
+    "realname" : "生产", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(9), 
+        NumberInt(14)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-07-27T21:09:23.906+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.091+0000")
+}
+{ 
+    "_id" : "0dfd4adf-8354-4b43-8c3f-d4f952c77fd2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jing.shi", 
+    "password" : "stem123", 
+    "realname" : "石晶", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(27)
+    ], 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-08-01T05:06:08.402+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.093+0000")
+}
+{ 
+    "_id" : "cc1ce867-0a86-4186-a97a-ebc194e63412", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "haidong.xu", 
+    "password" : "stem123", 
+    "realname" : "许海东", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-08-03T23:19:53.815+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.134+0000")
+}
+{ 
+    "_id" : "8a3c48fd-d762-4ecc-9964-71df366b27cf", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lin.zhao", 
+    "password" : "stem123", 
+    "realname" : "赵琳", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-08-03T23:20:52.105+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.136+0000")
+}
+{ 
+    "_id" : "a8581e17-f28a-4263-b1d5-8a2e3967a6ce", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "qiang.wu", 
+    "password" : "stem123", 
+    "realname" : "吴强", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(9), 
+        NumberInt(15)
+    ], 
+    "departments" : [
+        "BUSINESS"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-08-18T22:36:55.828+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.027+0000")
+}
+{ 
+    "_id" : "625e37ff-9c02-48f6-8e51-f113e2b3827c", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jihui.du", 
+    "password" : "stem123", 
+    "realname" : "杜继晖", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(9), 
+        NumberInt(15)
+    ], 
+    "departments" : [
+        "BUSINESS"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-08-22T05:10:07.236+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.068+0000")
+}
+{ 
+    "_id" : "89b98033-ab7f-44c4-a91e-b57acca96dc5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.youhui.huang", 
+    "password" : "stem123", 
+    "realname" : "黄有辉", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-09-21T09:08:38.660+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.162+0000"), 
+    "projectViewList" : [
+        "54d0054f-f80f-4119-9174-446e2bd5b983", 
+        "aba1ca20-14b2-4008-b9aa-5dfef43c5933"
+    ]
+}
+{ 
+    "_id" : "29a59225-1814-4b0d-aa18-62818dd99692", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.ziming.ma", 
+    "password" : "stem123", 
+    "realname" : "马子明", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-09-21T09:08:59.120+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.160+0000"), 
+    "projectViewList" : [
+        "193784c5-e965-40a4-b6bb-88d28943b03c"
+    ]
+}
+{ 
+    "_id" : "8e20178e-677b-4b81-a2df-a1f415076b86", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.guangyu.mou", 
+    "password" : "stem123", 
+    "realname" : "牟广宇", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-09-21T09:09:50.244+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.080+0000"), 
+    "projectViewList" : [
+        "54d0054f-f80f-4119-9174-446e2bd5b983", 
+        "aba1ca20-14b2-4008-b9aa-5dfef43c5933"
+    ]
+}
+{ 
+    "_id" : "1aa6f640-ad33-4bde-b16e-7dde3d5fde66", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.jianpei.wang", 
+    "password" : "stem123", 
+    "realname" : "王健沛", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-09-21T09:10:43.057+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.082+0000"), 
+    "projectViewList" : [
+        "a37482c8-8935-47c0-8d45-6759edb766cf"
+    ]
+}
+{ 
+    "_id" : "f5378b1f-0b9b-4a51-b622-d6e9cc3c5dc4", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.yebin.yi", 
+    "password" : "stem123", 
+    "realname" : "尹烨彬", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-09-21T09:12:10.863+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.038+0000"), 
+    "projectViewList" : [
+        "54d0054f-f80f-4119-9174-446e2bd5b983", 
+        "aba1ca20-14b2-4008-b9aa-5dfef43c5933"
+    ]
+}
+{ 
+    "_id" : "681ae3ae-671a-45f9-8489-6a0d6846beff", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.cao.zhang", 
+    "password" : "stem123", 
+    "realname" : "张操", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-09-21T09:12:27.147+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.039+0000"), 
+    "projectViewList" : [
+        "0eb041e2-2ce4-4476-957d-285c12a9994c", 
+        "54d0054f-f80f-4119-9174-446e2bd5b983", 
+        "aba1ca20-14b2-4008-b9aa-5dfef43c5933"
+    ]
+}
+{ 
+    "_id" : "234f16cf-afab-4a2b-a8e4-e8ecbc7cd414", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.nan.guo", 
+    "password" : "stem123", 
+    "realname" : "郭楠", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-09-21T09:13:00.583+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.140+0000"), 
+    "projectViewList" : [
+        "54d0054f-f80f-4119-9174-446e2bd5b983", 
+        "aba1ca20-14b2-4008-b9aa-5dfef43c5933"
+    ]
+}
+{ 
+    "_id" : "8bc1ac0c-aad1-4206-a3fd-b4b1be98ff8a", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.ying.cheng", 
+    "password" : "stem123", 
+    "realname" : "程颖", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-09-21T09:13:29.749+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.095+0000"), 
+    "projectViewList" : [
+        "54d0054f-f80f-4119-9174-446e2bd5b983", 
+        "aba1ca20-14b2-4008-b9aa-5dfef43c5933"
+    ]
+}
+{ 
+    "_id" : "f59095dd-aeb7-4d08-b651-a9175ebb96f2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.jimang.yang", 
+    "password" : "stem123", 
+    "realname" : "杨纪芒", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-09-21T09:13:50.429+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.071+0000"), 
+    "projectViewList" : [
+        "54d0054f-f80f-4119-9174-446e2bd5b983", 
+        "aba1ca20-14b2-4008-b9aa-5dfef43c5933"
+    ]
+}
+{ 
+    "_id" : "1de5daef-fd5a-403b-a153-3feb5b8283e4", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "ming.wu", 
+    "password" : "stem123", 
+    "realname" : "吴铭", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "TRAINING_CENTER"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : true, 
+    "created" : ISODate("2016-10-08T02:45:24.542+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.030+0000")
+}
+{ 
+    "_id" : "f99d2a71-094e-4262-b14f-413225720fe5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "wenjing.zou", 
+    "password" : "stem123", 
+    "realname" : "邹文静", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-10-08T02:45:50.507+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.139+0000")
+}
+{ 
+    "_id" : "b6b16a7b-ccc3-4bbc-9d07-dd47e09bd3de", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.yibin.su", 
+    "password" : "stem123", 
+    "realname" : "苏义斌", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-10-21T15:52:52.902+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.129+0000")
+}
+{ 
+    "_id" : "017e9306-a197-4e60-8f1a-e98321a0b504", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.huanzhen.qi", 
+    "password" : "stem123", 
+    "realname" : "戚焕震", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-10-21T15:53:38.306+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.061+0000")
+}
+{ 
+    "_id" : "ed7faa00-58bd-4afa-ae26-fc73de4943be", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "pt.ye.li", 
+    "password" : "stem123", 
+    "realname" : "李叶", 
+    "roles" : [
+        NumberInt(11)
+    ], 
+    "departments" : [
+        "PART_TIME_TEACHER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-10-21T15:53:49.802+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.065+0000"), 
+    "projectViewList" : [
+        "4985b1ac-a891-410a-b64d-969cc460dac1", 
+        "cd04e2e5-832f-4807-88b6-7b4efd62daa9"
+    ]
+}
+{ 
+    "_id" : "f5e03eb3-c2a6-4997-a6ac-9ca353601c7d", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "ruidong.zhu", 
+    "password" : "stem123", 
+    "realname" : "朱瑞东", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-10-24T02:22:14.545+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.064+0000")
+}
+{ 
+    "_id" : "9bbe0cee-c631-4bab-acad-e6ec49303584", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "business", 
+    "password" : "stem123", 
+    "realname" : "综合事业部", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(13), 
+        NumberInt(15), 
+        NumberInt(20)
+    ], 
+    "departments" : [
+        "BUSINESS"
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-10-24T08:45:58.413+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.098+0000")
+}
+{ 
+    "_id" : "1f2277ea-df3b-4cfd-a26c-d85069ca7750", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yuandong.qiu", 
+    "password" : "stem123", 
+    "realname" : "邱源东", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(23)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-11-02T03:58:41.378+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.139+0000")
+}
+{ 
+    "_id" : "3cd44efd-4ec7-4f0c-aa64-6a6710268eb6", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "cheng.chen", 
+    "password" : "stem123", 
+    "realname" : "陈程", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(9), 
+        NumberInt(15)
+    ], 
+    "departments" : [
+        "BUSINESS"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-11-07T03:27:46.506+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.156+0000")
+}
+{ 
+    "_id" : "baba84b2-c175-45c2-a769-7836b9107c07", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lanlan.zhou", 
+    "password" : "stem123", 
+    "realname" : "周兰兰", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(15), 
+        NumberInt(20), 
+        NumberInt(26)
+    ], 
+    "departments" : [
+        "BUSINESS_EAST"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-11-13T14:02:09.221+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.031+0000"), 
+    "projectViewList" : [
+        "e2fa6734-49ef-4483-bd93-036759d3374e", 
+        "954eed06-0502-4633-aa7a-d5374090a93c", 
+        "52af8e80-0f87-4546-8ea3-49119acf19b0", 
+        "dce8a153-9d73-45f8-90b5-f03d9c7c2456", 
+        "181be926-61df-41bd-add6-1c53026877ef", 
+        "5d766629-0782-480f-8728-b47b2dd6b956"
+    ]
+}
+{ 
+    "_id" : "676546cb-94f6-4a1a-8b94-591688c548ef", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jie.wan", 
+    "password" : "stem123", 
+    "realname" : "万杰", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-11-13T14:02:25.650+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.009+0000")
+}
+{ 
+    "_id" : "1f5a714c-7c85-45fd-a9e1-7837a7d6e26f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lei.gu", 
+    "password" : "stem123", 
+    "realname" : "顾雷", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(9), 
+        NumberInt(15)
+    ], 
+    "departments" : [
+        "BUSINESS", 
+        "BUSINESS_EAST"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-11-13T14:02:58.650+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.158+0000"), 
+    "projectViewList" : [
+        "07147d47-e7df-4b8b-ad37-215d9a502253", 
+        "faf4af52-70af-4b6e-8fd6-ddf6d3e9e014"
+    ]
+}
+{ 
+    "_id" : "769d3ae1-4a02-497c-b6be-5f6991f24d9d", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yihan.chen", 
+    "password" : "stem123", 
+    "realname" : "陈伊涵", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "FINANCE"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-11-17T15:21:09.030+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.153+0000"), 
+    "projectViewList" : [
+        "1b56d351-5991-43b1-a0db-a060a3e20c59", 
+        "6c97f452-44a0-4e01-a66d-deedb3a5703f", 
+        "88e37054-5d97-4c5f-ac08-7169e615c655"
+    ]
+}
+{ 
+    "_id" : "1ea92a09-5a04-4e8b-b609-569d2c2f3845", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "business2", 
+    "password" : "stem123", 
+    "realname" : "综合事业部账号2", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(13), 
+        NumberInt(15), 
+        NumberInt(20)
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-10-24T08:45:58.413+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.123+0000")
+}
+{ 
+    "_id" : "3cda1c78-5964-49bf-80c9-5caf256443a3", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "business3", 
+    "password" : "stem123", 
+    "realname" : "综合事业部账号3", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(13), 
+        NumberInt(15), 
+        NumberInt(20)
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-10-24T08:45:58.413+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.124+0000")
+}
+{ 
+    "_id" : "9520acd7-9d29-44c6-b682-6be333142e39", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "tengfei.wang", 
+    "password" : "stem123", 
+    "realname" : "王腾飞", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(9), 
+        NumberInt(15)
+    ], 
+    "departments" : [
+        "BUSINESS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-11-22T09:06:19.753+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.090+0000")
+}
+{ 
+    "_id" : "9af971ae-a064-460e-862c-ae37ea4a8a40", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "wei.yang", 
+    "password" : "stem123", 
+    "realname" : "杨维", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-11-28T01:55:15.928+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.072+0000")
+}
+{ 
+    "_id" : "2a47d92a-d30d-4389-af8c-1daec8bc96c9", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "chuan.lei", 
+    "password" : "stem123", 
+    "realname" : "雷川", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(3), 
+        NumberInt(15), 
+        NumberInt(22), 
+        NumberInt(24)
+    ], 
+    "departments" : [
+        "EXECUTIVE", 
+        "BUSINESS_SOUTH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-04-04T21:07:05.915+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.157+0000")
+}
+{ 
+    "_id" : "3c6243e9-fe15-4d9a-815c-50d47254a1ff", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jing.ren", 
+    "password" : "stem123", 
+    "realname" : "任静", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(17)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2016-12-07T15:18:52.392+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.011+0000")
+}
+{ 
+    "_id" : "971044d3-39c6-4e0d-97e6-f6ed08ee5da8", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "2205decoration", 
+    "password" : "stem123", 
+    "realname" : "2205装修", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-12-22T02:33:40.381+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.000+0000")
+}
+{ 
+    "_id" : "aa3fa9f0-a3c1-406e-835c-0ee5c8e5c93f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "2505decoration", 
+    "password" : "stem123", 
+    "realname" : "2505装修", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2016-12-22T02:33:48.943+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.002+0000")
+}
+{ 
+    "_id" : "ab3a9a77-2031-40df-ad28-b688efa62129", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "rd", 
+    "password" : "stem123", 
+    "realname" : "研发部", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-01-10T07:34:12.675+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.094+0000")
+}
+{ 
+    "_id" : "895b6fae-f2fd-4d62-974b-eeb932f38541", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "shuren.mao", 
+    "password" : "stem123", 
+    "realname" : "毛术人", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(15)
+    ], 
+    "departments" : [
+        "BUSINESS", 
+        "BUSINESS_WEST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-02-04T06:47:11.804+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.075+0000"), 
+    "projectViewList" : [
+        "2d57f13a-0ac6-4818-803d-bc2df39bc48a"
+    ]
+}
+{ 
+    "_id" : "4b4900a8-8c9c-493f-bc0f-898fddfdb62b", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yuexiao.lv", 
+    "password" : "stem123", 
+    "realname" : "吕月潇", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_MANAGEMENT", 
+        "BUSINESS_WEST"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-02-04T06:47:34.282+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.025+0000"), 
+    "projectViewList" : [
+        "88e37054-5d97-4c5f-ac08-7169e615c655"
+    ]
+}
+{ 
+    "_id" : "7f2bf0cc-911f-4d48-8727-afd1352bdd9e", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "ruona.li", 
+    "password" : "stem123", 
+    "realname" : "李若娜", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "FINANCE"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-02-07T06:06:36.614+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.067+0000"), 
+    "projectViewList" : [
+        "1b56d351-5991-43b1-a0db-a060a3e20c59", 
+        "6c97f452-44a0-4e01-a66d-deedb3a5703f", 
+        "88e37054-5d97-4c5f-ac08-7169e615c655"
+    ]
+}
+{ 
+    "_id" : "e0cbca48-da76-4620-8076-4970410ac880", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "audrey.lin", 
+    "password" : "stem123", 
+    "realname" : "林婉旭", 
+    "roles" : [
+        NumberInt(3)
+    ], 
+    "departments" : [
+        "EXECUTIVE"
+    ], 
+    "state" : "INACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-02-09T05:45:46.977+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.073+0000")
+}
+{ 
+    "_id" : "53f7898a-acda-4b90-85f8-40e7675de25f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "business4", 
+    "password" : "stem123", 
+    "realname" : "综合事业部4", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(13), 
+        NumberInt(15), 
+        NumberInt(20)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-02-14T02:55:48.294+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.121+0000")
+}
+{ 
+    "_id" : "1c7cb236-610a-4f1a-87c3-73c3a4235e40", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "business5", 
+    "password" : "stem123", 
+    "realname" : "综合事业部5", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(13), 
+        NumberInt(15), 
+        NumberInt(20)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "type" : "COMPANY", 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-02-14T02:55:57.694+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.122+0000")
+}
+{ 
+    "_id" : "7896ca42-8dba-4b7b-b4ab-4ce21afee88a", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yu.liu", 
+    "password" : "stem123", 
+    "realname" : "刘钰", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(15)
+    ], 
+    "departments" : [
+        "BUSINESS", 
+        "BUSINESS_SUPPORT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-02-20T08:11:24.277+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.017+0000")
+}
+{ 
+    "_id" : "19e91d82-a1c0-4e09-93c4-234c0e5d2847", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "min.yang", 
+    "password" : "stem123", 
+    "realname" : "杨敏", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-02-26T16:10:39.012+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.069+0000")
+}
+{ 
+    "_id" : "a14b194b-3ad9-4b7e-8c32-463940d64cb7", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "kent.chen", 
+    "password" : "stem123", 
+    "realname" : "Kent", 
+    "roles" : [
+        NumberInt(1), 
+        NumberInt(3)
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-03-07T03:13:04.303+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.003+0000")
+}
+{ 
+    "_id" : "8f7a1804-2784-47d6-a111-67f80459403f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "li.yang", 
+    "password" : "stem123", 
+    "realname" : "杨丽", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-03-12T01:59:21.825+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.069+0000")
+}
+{ 
+    "_id" : "8100dcaf-d2c8-4afc-a641-d2211ba6a746", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "chanjun.bao", 
+    "password" : "stem123", 
+    "realname" : "包婵君", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-03-12T01:59:39.795+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.020+0000")
+}
+{ 
+    "_id" : "565195c1-4bb2-4237-b70e-bcc522a31a91", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xiaobo.yan", 
+    "password" : "stem123", 
+    "realname" : " 严晓波", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-03-12T02:01:52.628+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:16.994+0000")
+}
+{ 
+    "_id" : "904986f3-a1e5-47f2-89cc-eacb6dc02385", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "haoran.chen", 
+    "password" : "stem123", 
+    "realname" : "陈浩然", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-03-21T09:44:00.001+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.154+0000")
+}
+{ 
+    "_id" : "fcba5ed3-b731-4580-b607-a2cd79ec2ba8", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lanman.dong", 
+    "password" : "stem123", 
+    "realname" : "董蓝蔓", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(3)
+    ], 
+    "departments" : [
+        "MARKETING", 
+        "EXECUTIVE", 
+        "PROJECT_MANAGEMENT"
+    ], 
+    "state" : "INACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-04-01T03:38:19.444+0000"), 
+    "updated" : ISODate("2018-09-26T03:54:20.480+0000")
+}
+{ 
+    "_id" : "88c96e35-9dc3-4ce3-a7f1-d4315d752491", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "shumin.wang", 
+    "password" : "stem123", 
+    "realname" : "王淑敏", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-04-10T09:30:57.759+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.087+0000")
+}
+{ 
+    "_id" : "1ccd1bf1-6861-4a2e-8618-88982ab957cc", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "guest", 
+    "password" : "stem123", 
+    "realname" : "游客", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-04-13T06:33:00.254+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.079+0000")
+}
+{ 
+    "_id" : "90d0dfa2-70ea-448a-ad9e-52b84773dba5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xiangxiang.chen", 
+    "password" : "stem123", 
+    "realname" : "陈相相", 
+    "roles" : [
+        NumberInt(1)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-04-17T10:01:47.208+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.155+0000")
+}
+{ 
+    "_id" : "5c11c83c-5d33-411f-911c-143a386adc7f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xin.wen", 
+    "password" : "stem123", 
+    "realname" : "温昕", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES", 
+        "TRAINING_CENTER"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-04-20T09:49:02.691+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.078+0000")
+}
+{ 
+    "_id" : "f98b2ee8-2643-41c4-8f76-dbcd540e8de2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xinglin.wang", 
+    "password" : "stem123", 
+    "realname" : "王星霖", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-04-20T09:49:11.751+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.085+0000")
+}
+{ 
+    "_id" : "fa8589a9-f8dd-4cc9-85f6-febde0e47b4a", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "zaiqiao.gou", 
+    "password" : "stem123", 
+    "realname" : "苟载桥", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS", 
+        "BUSINESS_EAST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-04-24T08:41:02.204+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.131+0000"), 
+    "projectViewList" : [
+        "017229ed-83d6-4a01-9894-d51acefc2987"
+    ]
+}
+{ 
+    "_id" : "6cf94e26-627a-42ec-a324-1b5477bc5db7", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jia.liu", 
+    "password" : "stem123", 
+    "realname" : "刘佳", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(27)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2017-05-03T13:40:00.583+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.015+0000")
+}
+{ 
+    "_id" : "4c655ee1-ed93-47fd-8bc4-340a26585a10", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "wanqian.hu", 
+    "password" : "stem123", 
+    "realname" : "胡婉倩", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-05-03T13:40:46.198+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.127+0000")
+}
+{ 
+    "_id" : "f262e060-1dee-4390-8e24-a98083766d0c", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "shuo.hong", 
+    "password" : "stem123", 
+    "realname" : "洪硕", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-05-03T13:41:25.590+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.077+0000")
+}
+{ 
+    "_id" : "0eeeb03c-c964-4225-a197-b73fd33311c9", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xiaojing.zhao", 
+    "password" : "stem123", 
+    "realname" : "赵晓静", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-05-19T09:33:26.415+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.136+0000")
+}
+{ 
+    "_id" : "761659be-e3ee-4cfc-8bca-a7fa79b632f2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "zhiqin.wang", 
+    "password" : "stem123", 
+    "realname" : "王志琴", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-05-19T09:33:40.447+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.083+0000")
+}
+{ 
+    "_id" : "1edfd3ab-47d8-4c70-aa3f-e565bc34dde2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yinglin.lao", 
+    "password" : "stem123", 
+    "realname" : "劳莹琳", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(28)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-06-15T07:50:00.272+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.019+0000")
+}
+{ 
+    "_id" : "5f9182e2-4342-4267-9bbd-7041c9381d1b", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jing.luo", 
+    "password" : "stem123", 
+    "realname" : "罗静", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(24), 
+        NumberInt(27)
+    ], 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-06-15T08:03:34.911+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.125+0000"), 
+    "projectViewList" : [
+        "e2fa6734-49ef-4483-bd93-036759d3374e"
+    ]
+}
+{ 
+    "_id" : "7c9faf9b-64c4-48af-ad47-38cafce4703f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "qiying.mao", 
+    "password" : "stem123", 
+    "realname" : "毛其莹", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-06-15T08:04:03.493+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.074+0000")
+}
+{ 
+    "_id" : "ad1b7e8d-3271-4cb5-8d43-a8846a839740", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "renyi.ding", 
+    "password" : "stem123", 
+    "realname" : "丁仁义", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-07-31T06:54:03.312+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.007+0000")
+}
+{ 
+    "_id" : "ed82fd36-8ec1-4c02-807a-d8bc43f12334", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "chaoqun.zhang", 
+    "password" : "stem123", 
+    "realname" : "张超群", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "EXECUTIVE_ASSISTANT"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-08-03T05:35:34.614+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.056+0000")
+}
+{ 
+    "_id" : "c7b6193b-8e43-435f-8a86-d3a363fe7f5f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yanfei.chen", 
+    "password" : "stem123", 
+    "realname" : "陈彦霏", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(24)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2017-08-03T05:36:36.419+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.154+0000")
+}
+{ 
+    "_id" : "e7b7b780-a622-4f46-b635-9cfe2683320b", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yunshu.yuan", 
+    "password" : "stem123", 
+    "realname" : "袁云舒", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-08-08T07:11:42.966+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.133+0000")
+}
+{ 
+    "_id" : "b264dd74-80a5-462f-aa61-66bcdce7893f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "wenfu.lu", 
+    "password" : "stem123", 
+    "realname" : "卢文夫", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-09-11T03:56:49.009+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.021+0000")
+}
+{ 
+    "_id" : "1b0b2b59-d29c-41f6-a87b-d01c9fac905e", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "trainingcenter", 
+    "password" : "stem123", 
+    "realname" : "培训中心", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-09-12T03:42:46.187+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.034+0000")
+}
+{ 
+    "_id" : "6bdaaf32-181f-4640-818f-6425db98fdc2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yizhong.zhang.baoxiao", 
+    "password" : "stem123", 
+    "realname" : "张逸中报销", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "EXECUTIVE_ASSISTANT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-09-15T09:25:08.034+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.058+0000")
+}
+{ 
+    "_id" : "43ec9775-944f-48eb-829d-d3f531164d07", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "shanshan.feng", 
+    "password" : "stem123", 
+    "realname" : "冯珊珊", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-09-20T09:15:35.642+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.014+0000")
+}
+{ 
+    "_id" : "7d956b8f-25c4-4d5a-ae60-e2adaf510288", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jinliang.ding", 
+    "password" : "stem123", 
+    "realname" : "丁金亮", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-10-09T02:29:18.338+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.008+0000")
+}
+{ 
+    "_id" : "992c44b2-af03-405e-9750-371ec29c4b1c", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "qi.wu", 
+    "password" : "stem123", 
+    "realname" : "吴琦", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-10-17T06:17:23.765+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.029+0000")
+}
+{ 
+    "_id" : "6bcdc14f-3e50-444d-860c-468e3feff4f5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jing.lu", 
+    "password" : "stem123", 
+    "realname" : "卢静", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-10-17T06:37:27.163+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.022+0000")
+}
+{ 
+    "_id" : "dbf4f44f-f95b-4ff4-bc47-69cd131e3470", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xin.zhang", 
+    "password" : "stem123", 
+    "realname" : "张鑫", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_NORTH"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-10-24T05:57:24.211+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.059+0000"), 
+    "projectViewList" : [
+        "2d57f13a-0ac6-4818-803d-bc2df39bc48a"
+    ]
+}
+{ 
+    "_id" : "906cc59e-f88f-443f-97dd-baf5aa4a83b6", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "huilin.tian", 
+    "password" : "stem123", 
+    "realname" : "田慧林", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_EAST", 
+        "PROJECT_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-10-24T05:57:41.007+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.092+0000"), 
+    "projectViewList" : [
+        "faf4af52-70af-4b6e-8fd6-ddf6d3e9e014"
+    ]
+}
+{ 
+    "_id" : "34afc00a-f8f1-4d44-ac69-1d9bdfa7e90d", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "chenli.yang", 
+    "password" : "stem123", 
+    "realname" : "杨晨丽", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-10-30T09:21:57.449+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.070+0000")
+}
+{ 
+    "_id" : "fbf0e06c-f72d-4d42-a415-8782c0de4de2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jing.geng", 
+    "password" : "stem123", 
+    "realname" : "耿静", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-11-09T07:06:19.900+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.125+0000")
+}
+{ 
+    "_id" : "5cf180f3-3e7b-429c-be95-4712416ec8f3", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "purchase", 
+    "password" : "stem123", 
+    "realname" : "采购账号", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(28)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "ACTIVE", 
+    "type" : "COMPANY", 
+    "manager" : false, 
+    "created" : ISODate("2017-11-09T10:07:39.840+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.141+0000")
+}
+{ 
+    "_id" : "03574b97-3b94-418d-ac22-fed4bb0bd873", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "ying.hua", 
+    "password" : "stem123", 
+    "realname" : "花颖", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-12-29T04:08:00.813+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.128+0000")
+}
+{ 
+    "_id" : "1d87198a-2cdf-46ff-9d16-35f4c7c13972", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jiaojiao.ma", 
+    "password" : "stem123", 
+    "realname" : "马姣姣", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "EXECUTIVE_ASSISTANT"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2018-01-02T06:48:54.045+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.158+0000")
+}
+{ 
+    "_id" : "54dae1bb-d512-428e-b4d2-aba1eefb1361", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "deyu.feng", 
+    "password" : "stem123", 
+    "realname" : "冯德裕", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "TRAINING_CENTER"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-01-02T06:49:07.092+0000"), 
+    "updated" : ISODate("2018-04-24T08:50:16.273+0000")
+}
+{ 
+    "_id" : "882d51aa-ef2f-4a08-89ab-5d1791d89b06", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "fan.ye", 
+    "password" : "stem123", 
+    "realname" : "叶帆", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "INACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-01-03T02:37:09.036+0000"), 
+    "updated" : ISODate("2018-04-16T10:14:55.456+0000")
+}
+{ 
+    "_id" : "8cac87f0-8978-45c6-8b0d-6fe60ab63ce2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "mingming.zhu", 
+    "password" : "stem123", 
+    "realname" : "朱明明", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-01-03T08:55:06.863+0000"), 
+    "updated" : ISODate("2018-09-03T01:54:04.702+0000")
+}
+{ 
+    "_id" : "04c31acb-d2bb-4340-b027-86f17e0bf103", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xin.wang", 
+    "password" : "stem123", 
+    "realname" : "王昕", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_WEST"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2017-02-04T06:47:34.282+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.084+0000")
+}
+{ 
+    "_id" : "932184b0-0bda-11e8-ba89-0ed5f89f718b", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "tianxiang.su", 
+    "password" : "stem123", 
+    "realname" : "苏天翔", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_WEST", 
+        "PROJECT_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-02-04T06:47:34.282+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.130+0000")
+}
+{ 
+    "_id" : "689c34f6-eee2-44d0-983f-c52d2c9ff6c6", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lin.zhu", 
+    "password" : "stem123", 
+    "realname" : "朱琳", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-02-22T04:25:56.436+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.063+0000")
+}
+{ 
+    "_id" : "e070f889-5dc5-4669-9792-0dddd2d35111", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "wenting.zhang", 
+    "password" : "stem123", 
+    "realname" : "张文婷", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2018-02-22T04:27:57.103+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.052+0000")
+}
+{ 
+    "_id" : "20bfc5c2-7c54-4269-83b2-7dfdfc91cbd6", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "hui.wu", 
+    "password" : "stem123", 
+    "realname" : "吴辉", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_WEST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-03-12T09:41:15.124+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.030+0000")
+}
+{ 
+    "_id" : "4ea99fc3-0711-42b5-a514-3ac1dafe9ce9", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jianbao.luo", 
+    "password" : "stem123", 
+    "realname" : "骆建宝", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_EAST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2018-03-19T06:55:53.501+0000"), 
+    "updated" : ISODate("2018-04-12T03:10:13.174+0000")
+}
+{ 
+    "_id" : "d2f83f0d-f359-4c8a-8151-20e921d68380", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "weina.li", 
+    "password" : "stem123", 
+    "realname" : "李维娜", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_EAST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-03-19T06:56:09.182+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.066+0000")
+}
+{ 
+    "_id" : "2f0d8cc5-e893-4ae7-99d3-e954a9aedfcd", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "qing.zhu", 
+    "password" : "stem123", 
+    "realname" : "朱晴", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "FINANCE"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-03-20T07:00:47.953+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.062+0000")
+}
+{ 
+    "_id" : "56aa1ef0-638f-4fb7-97c2-81c66f7358c5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xiaowei.lin", 
+    "password" : "stem123", 
+    "realname" : "林晓伟", 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2018-03-27T07:27:11.484+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.073+0000")
+}
+{ 
+    "_id" : "8d6a97cf-3eb5-4cf5-8d2e-e4b2c3f5312a", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jing.zhou", 
+    "password" : "stem123", 
+    "realname" : "周婧", 
+    "departments" : [
+        "BUSINESS_SUPPORT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-03-27T07:27:54.815+0000"), 
+    "updated" : ISODate("2018-04-09T03:14:57.425+0000")
+}
+{ 
+    "_id" : "45742bdc-fab1-4e56-8689-1c0a4b2beb16", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "songlin.zhang", 
+    "password" : "stem123", 
+    "realname" : "张松林", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_NORTH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2018-04-03T08:24:56.657+0000"), 
+    "updated" : ISODate("2018-04-04T09:03:17.055+0000")
+}
+{ 
+    "_id" : "d352f954-76f0-47af-b5a5-7dad8a54c35d", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yunhao.sun", 
+    "password" : "stem123", 
+    "realname" : "孙云皓", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "TRAINING_CENTER", 
+        "HUMAN_RESOURCES"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-04-03T08:25:12.341+0000"), 
+    "updated" : ISODate("2018-04-17T05:41:57.267+0000")
+}
+{ 
+    "_id" : "ea29422d-8edf-485c-b2a2-2e850df970a2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "training.user", 
+    "password" : "stem123", 
+    "realname" : "内部培训测试账号", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_EAST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-04-10T10:55:02.323+0000")
+}
+{ 
+    "_id" : "c8c3f415-39bc-4586-ae11-6c8701f2c634", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "zhiyi.zhou", 
+    "password" : "stem123", 
+    "realname" : "周之怡", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "STRATEGY", 
+        "PROJECT_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2018-04-16T07:06:43.641+0000"), 
+    "updated" : ISODate("2018-04-16T08:15:50.741+0000")
+}
+{ 
+    "_id" : "9b196347-b6d3-4b3a-8cd2-18c832279185", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "shaofeng.wang", 
+    "password" : "stem123", 
+    "realname" : "王少峰", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_EAST"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2018-04-16T07:08:49.791+0000")
+}
+{ 
+    "_id" : "beabaed2-c224-4547-af05-eb8abc22de14", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "chuan.qin", 
+    "password" : "stem123", 
+    "realname" : "秦川", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_WEST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2018-04-19T02:30:24.019+0000")
+}
+{ 
+    "_id" : "77626656-b4cc-4679-ba0e-abfa3c3d8f71", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "weizhong.zhang", 
+    "password" : "stem123", 
+    "realname" : "章伟忠", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_SOUTH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2018-04-20T02:19:28.181+0000")
+}
+{ 
+    "_id" : "e6d5a245-fe24-4098-8ef7-fb7b31444109", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "wei.liu", 
+    "password" : "stem123", 
+    "realname" : "刘伟", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_SOUTH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-04-23T06:28:04.749+0000")
+}
+{ 
+    "_id" : "2d32f524-904e-4d3b-8160-8df1ad59a01d", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xinyan.leng", 
+    "password" : "stem123", 
+    "realname" : "冷昕妍", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_WEST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-04-26T08:16:06.071+0000")
+}
+{ 
+    "_id" : "7517d58d-2775-4293-abd6-9e89abfe57b0", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lijuan.chen", 
+    "password" : "stem123", 
+    "realname" : "陈丽娟", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_WEST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-04-26T08:16:27.381+0000"), 
+    "updated" : ISODate("2018-05-09T08:22:56.619+0000")
+}
+{ 
+    "_id" : "4a5e7f52-2818-4bb9-a546-15b56aef5289", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "hui.liu", 
+    "password" : "stem123", 
+    "realname" : "刘慧", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_WEST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-04-26T08:16:51.560+0000")
+}
+{ 
+    "_id" : "e90334f6-906a-437a-8847-bfe297e66936", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xukang.luo", 
+    "password" : "stem123", 
+    "realname" : "罗旭康", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_EAST"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2018-04-26T08:17:26.729+0000")
+}
+{ 
+    "_id" : "9bea1379-5497-43ec-b74d-27f32b6af65a", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "min.zhang", 
+    "password" : "stem123", 
+    "realname" : "张敏", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(29)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-05-07T05:46:49.294+0000")
+}
+{ 
+    "_id" : "632c8a6f-9083-421e-9333-5eff951437e5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "na.chao", 
+    "password" : "stem123", 
+    "realname" : "曹(晁)娜", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_OPERATIONS", 
+        "STRATEGY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-01T04:42:30.199+0000"), 
+    "updated" : ISODate("2018-06-04T10:01:10.175+0000")
+}
+{ 
+    "_id" : "f47d8919-0c2b-4a1a-bbbc-61ab239913c3", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "duohai.chen", 
+    "password" : "stem123", 
+    "realname" : "陈多海", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_OPERATIONS", 
+        "STRATEGY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-01T04:43:01.158+0000"), 
+    "updated" : ISODate("2018-06-14T02:15:00.165+0000")
+}
+{ 
+    "_id" : "ac1666bc-b724-4262-8162-5716647be365", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "wei.sun", 
+    "password" : "stem123", 
+    "realname" : "孙伟", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_OPERATIONS", 
+        "STRATEGY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-01T04:43:14.697+0000")
+}
+{ 
+    "_id" : "d5f7cb99-0e3e-41cd-8662-c6b748507175", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "qingchuan.ni", 
+    "password" : "stem123", 
+    "realname" : "倪庆川", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_OPERATIONS", 
+        "STRATEGY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-01T04:43:45.206+0000")
+}
+{ 
+    "_id" : "7523d1d7-ed4f-4326-9809-a38f66a88f2e", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yifan.lin", 
+    "password" : "stem123", 
+    "realname" : "林谊帆", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_NORTH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-01T04:44:19.501+0000")
+}
+{ 
+    "_id" : "f8f7aac9-599b-466a-8c96-08183fc21420", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "junjin.zhu", 
+    "password" : "stem123", 
+    "realname" : "朱俊锦", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_SOUTH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-01T04:44:44.382+0000"), 
+    "updated" : ISODate("2018-07-23T07:56:21.968+0000")
+}
+{ 
+    "_id" : "501dbbfa-dc55-484f-9eaa-84c8d7157fcd", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xiaoxian.huang", 
+    "password" : "stem123", 
+    "realname" : "黄潇娴", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-01T04:45:49.966+0000")
+}
+{ 
+    "_id" : "c5d7b900-be0c-4dbb-859f-fcba57722144", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xiongbiao.chen", 
+    "password" : "stem123", 
+    "realname" : "陈雄彪", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_SOUTH"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-08T09:17:01.123+0000")
+}
+{ 
+    "_id" : "8f2c64dd-2b93-4343-bf28-7464d4b50343", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "teacher.test", 
+    "password" : "stem123", 
+    "realname" : "测试教学部", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-12T07:55:28.891+0000")
+}
+{ 
+    "_id" : "e084f10c-e7f1-4c8d-81bc-3eabed2186a5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xiaomin.wu", 
+    "password" : "stem123", 
+    "realname" : "吴晓敏", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-14T08:23:42.713+0000")
+}
+{ 
+    "_id" : "5b54b94e-51ae-4a52-b2a0-4d9357be8688", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "zhuohui.qian", 
+    "password" : "stem123", 
+    "realname" : "钱卓汇", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(24)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2018-06-14T08:23:59.339+0000")
+}
+{ 
+    "_id" : "5ba35146-2851-43c0-8eab-a493d4301f1e", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "le.geng", 
+    "password" : "stem123", 
+    "realname" : "耿乐", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_EAST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-14T08:24:17.995+0000"), 
+    "updated" : ISODate("2018-06-14T10:06:03.290+0000")
+}
+{ 
+    "_id" : "757d09e5-8716-4660-993f-c665c7f74d76", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "huimin.jiang", 
+    "password" : "stem123", 
+    "realname" : "姜慧敏", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-29T06:05:11.966+0000")
+}
+{ 
+    "_id" : "dd1015fe-5872-4298-a944-f16d3f743549", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yihui.tang", 
+    "password" : "stem123", 
+    "realname" : "汤义辉", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_EAST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-07-09T10:44:14.470+0000")
+}
+{ 
+    "_id" : "6d99e8c2-2cca-4c82-b83c-5a5dcdcaac2b", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yuping.deng", 
+    "password" : "stem123", 
+    "realname" : "邓羽萍", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(24)
+    ], 
+    "departments" : [
+        "EXECUTIVE_ASSISTANT", 
+        "ADMIN"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2018-07-11T08:06:49.510+0000"), 
+    "updated" : ISODate("2018-07-11T08:08:32.451+0000")
+}
+{ 
+    "_id" : "0275c996-779b-41ab-a5e8-91580a625816", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "siming.liu", 
+    "password" : "stem123", 
+    "realname" : "刘思鸣", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-07-20T08:56:43.833+0000")
+}
+{ 
+    "_id" : "f47bf037-47cc-4fa0-9314-3b3ad67377e2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xuxia.huang", 
+    "password" : "stem123", 
+    "realname" : "黄旭霞", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(24)
+    ], 
+    "departments" : [
+        "PUBLIC_RELATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2018-07-20T08:57:02.881+0000"), 
+    "updated" : ISODate("2018-08-30T09:08:53.312+0000")
+}
+{ 
+    "_id" : "aacf547d-d2c5-444f-ac5b-5ae26ba9b929", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "chunpeng.song", 
+    "password" : "stem123", 
+    "realname" : "宋春鹏", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_EAST"
+    ], 
+    "state" : "RESIGNED", 
+    "manager" : false, 
+    "created" : ISODate("2018-07-24T06:35:44.578+0000"), 
+    "updated" : ISODate("2018-07-24T07:40:54.295+0000")
+}
+{ 
+    "_id" : "317f2d79-c654-4058-b799-2bcceea5efed", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "wanya.deng", 
+    "password" : "stem123", 
+    "realname" : "邓顽雁", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-07-26T02:12:10.404+0000")
+}
+{ 
+    "_id" : "e0ea24d5-d6e6-4b76-a778-b57a7df54171", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lian.ming", 
+    "password" : "stem123", 
+    "realname" : "明恋", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-07-26T07:44:53.866+0000"), 
+    "updated" : ISODate("2018-08-14T04:11:25.639+0000")
+}
+{ 
+    "_id" : "b825fb5e-10e2-4d29-a2b0-aaf05ad3bd3d", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "kaiwei.fang", 
+    "password" : "stem123", 
+    "realname" : "方开玮", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_EAST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-07-27T10:20:59.041+0000"), 
+    "updated" : ISODate("2018-07-30T03:56:27.171+0000")
+}
+{ 
+    "_id" : "1248b562-ec1d-437a-bbcb-678347e6d790", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "li.wang", 
+    "password" : "stem123", 
+    "realname" : "王丽", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-07-27T10:21:09.879+0000"), 
+    "updated" : ISODate("2018-08-01T02:18:15.239+0000")
+}
+{ 
+    "_id" : "6d84b3f3-49d4-476e-9287-482e9fb9cd47", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "zixuan.wang", 
+    "password" : "stem123", 
+    "realname" : "王子轩", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-07-31T09:16:02.055+0000"), 
+    "updated" : ISODate("2018-08-03T03:44:29.030+0000")
+}
+{ 
+    "_id" : "2705db23-5593-4314-a4dd-43a06bd543ed", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "qing.li", 
+    "password" : "stem123", 
+    "realname" : "李晴", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-08-06T03:56:37.575+0000"), 
+    "updated" : ISODate("2018-08-07T01:57:20.476+0000")
+}
+{ 
+    "_id" : "ecb2de4e-6bb3-42a7-a157-0b4b1ac43dbd", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "ruobing.xie", 
+    "password" : "stem123", 
+    "realname" : "谢若冰", 
+    "roles" : [
+        NumberInt(2), 
+        NumberInt(27)
+    ], 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-08-20T06:43:30.349+0000"), 
+    "updated" : ISODate("2018-08-22T03:54:46.901+0000")
+}
+{ 
+    "_id" : "47c53717-08d6-4836-ab09-bb17ab63c928", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yuyuan.xiong", 
+    "password" : "stem123", 
+    "realname" : "熊玉媛", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PRODUCT_MARKETING"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-08-20T06:43:54.158+0000"), 
+    "updated" : ISODate("2018-08-23T02:13:37.306+0000")
+}
+{ 
+    "_id" : "7f54f6d1-1730-49cf-8db4-14f897e833fa", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yingjuan.dong", 
+    "password" : "stem123", 
+    "realname" : "董颖娟", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "STRATEGY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-08-20T06:45:04.486+0000")
+}
+{ 
+    "_id" : "617cecab-ffc8-4438-bab0-1836aa79f70b", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jiansheng.shi", 
+    "password" : "stem123", 
+    "realname" : "石健生", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PRODUCT_MARKETING"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-08-27T02:51:30.408+0000"), 
+    "updated" : ISODate("2018-09-05T07:40:33.036+0000")
+}
+{ 
+    "_id" : "5c619204-149f-493d-a2ef-34902a4e157e", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jianhu.sheng", 
+    "password" : "stem123", 
+    "realname" : "申建虎", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_DEVELOPMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : true, 
+    "created" : ISODate("2018-08-27T02:51:50.842+0000")
+}
+{ 
+    "_id" : "8875b3af-c004-4028-9499-a86f4ee0ff32", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "naihua.shi", 
+    "password" : "stem123", 
+    "realname" : "史乃花", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "ADMIN"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-08-27T02:56:42.035+0000"), 
+    "updated" : ISODate("2018-08-27T07:47:31.622+0000")
+}
+{ 
+    "_id" : "5275983d-c54e-4481-a706-6e4c82c290a8", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "qian.liu", 
+    "password" : "stem123", 
+    "realname" : "刘芊", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-08-30T08:07:08.826+0000"), 
+    "updated" : ISODate("2018-08-30T08:27:15.327+0000")
+}
+{ 
+    "_id" : "4d326d60-2a82-4827-a821-314ec8414942", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yiwen.zhang", 
+    "password" : "stem123", 
+    "realname" : "张艺文", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-08-30T08:07:32.259+0000"), 
+    "updated" : ISODate("2018-08-30T08:26:57.784+0000")
+}
+{ 
+    "_id" : "13120d2d-6bf1-4006-9052-c99d1e447194", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "min.xie", 
+    "password" : "stem123", 
+    "realname" : "解敏", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-09-03T06:35:20.605+0000"), 
+    "updated" : ISODate("2018-10-09T06:12:10.823+0000")
+}
+{ 
+    "_id" : "d2244d5e-2a10-4094-bad2-1cda48674bb2", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yan.zhang", 
+    "password" : "stem123", 
+    "realname" : "张妍", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "HUMAN_RESOURCES", 
+        "EXECUTIVE"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-09-03T06:36:03.463+0000"), 
+    "updated" : ISODate("2018-09-04T02:35:44.233+0000")
+}
+{ 
+    "_id" : "c569c033-02d4-41b2-916d-10542471c061", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yusheng.li", 
+    "password" : "stem123", 
+    "realname" : "李宇声", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "RESEARCH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-09-06T06:42:11.388+0000")
+}
+{ 
+    "_id" : "9a857e46-6dc3-4bd2-8142-b3967b8d1cf5", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yuwei.tang", 
+    "password" : "stem123", 
+    "realname" : "唐宇威", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_MANAGEMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-09-10T06:04:42.521+0000")
+}
+{ 
+    "_id" : "822bb696-518f-40bb-b78f-c21842184bbc", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "haocheng.xiao", 
+    "password" : "stem123", 
+    "realname" : "肖浩成", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "MARKETING"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-09-13T09:51:07.152+0000"), 
+    "updated" : ISODate("2018-09-17T07:29:46.977+0000")
+}
+{ 
+    "_id" : "30c5efe5-9cab-475b-a241-53764c38b17d", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "chiqing.yang", 
+    "password" : "stem123", 
+    "realname" : "杨智卿", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_SOUTH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-09-26T00:26:50.558+0000")
+}
+{ 
+    "_id" : "489a43bd-792e-48de-ab3e-6d16218dd7aa", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yuying.zhou", 
+    "password" : "stem123", 
+    "realname" : "周育英", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "ACADEMIC_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-09-26T00:27:12.923+0000")
+}
+{ 
+    "_id" : "85d7fde4-0aa6-4d5b-80d2-2d819f04a692", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xin.gong", 
+    "password" : "stem123", 
+    "realname" : "龚鑫", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PUBLIC_RELATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-09T06:44:57.055+0000"), 
+    "updated" : ISODate("2018-10-09T08:56:00.310+0000")
+}
+{ 
+    "_id" : "b043242b-aa2c-4395-85af-9aa41d6de165", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "haiyang.liu", 
+    "password" : "stem123", 
+    "realname" : "刘海洋", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-09T07:14:04.433+0000")
+}
+{ 
+    "_id" : "76aff501-313a-43f4-903a-c1b859ba8523", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "qu.chen", 
+    "password" : "stem123", 
+    "realname" : "陈曲", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-09T07:14:18.691+0000"), 
+    "updated" : ISODate("2018-10-09T09:01:04.184+0000")
+}
+{ 
+    "_id" : "676f0dcd-952c-4898-b3a0-6af206a35e98", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "shan.yu", 
+    "password" : "stem123", 
+    "realname" : "余珊", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_DEVELOPMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-09T07:26:39.059+0000")
+}
+{ 
+    "_id" : "cd217220-1425-4d93-97df-6f6e5e18dfe8", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xiang.chen", 
+    "password" : "stem123", 
+    "realname" : "陈香", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_DEVELOPMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-09T07:26:54.799+0000")
+}
+{ 
+    "_id" : "f11cdbb7-8a7c-4446-9e18-4e444b1141de", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lu.liu", 
+    "password" : "stem123", 
+    "realname" : "刘璐", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_DEVELOPMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-09T07:27:27.426+0000"), 
+    "updated" : ISODate("2018-10-23T07:36:28.785+0000")
+}
+{ 
+    "_id" : "05e69d8b-cf9f-4a78-b9ca-e308f063ada3", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yuanyuan.xu", 
+    "password" : "stem123", 
+    "realname" : "徐媛媛", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_DEVELOPMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-09T07:27:41.879+0000")
+}
+{ 
+    "_id" : "5aca3205-e057-4556-b0af-4d2696bc1767", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "haiyang.jiang", 
+    "password" : "stem123", 
+    "realname" : "江海洋", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_OPERATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-11T10:51:28.882+0000"), 
+    "updated" : ISODate("2018-10-12T03:26:24.056+0000")
+}
+{ 
+    "_id" : "14c6db86-8fe3-464d-becb-380e6c84da26", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "lezhang.lin", 
+    "password" : "stem123", 
+    "realname" : "林乐章", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_DEVELOPMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-12T09:15:25.923+0000")
+}
+{ 
+    "_id" : "67f74413-37da-43c9-af1d-36b4b8fdf374", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xiaochen.shen", 
+    "password" : "stem123", 
+    "realname" : "沈晓晨", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "SUPPLY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-12T09:15:45.457+0000")
+}
+{ 
+    "_id" : "7fabc8a3-7c5e-4c96-8a77-4b1bbd946111", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "test1", 
+    "password" : "stem123", 
+    "realname" : "测试账号1", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-05-23T23:35:32.050+0000")
+}
+{ 
+    "_id" : "7fabc8a3-7c5e-4c96-8a77-4b1bbd946222", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "test2", 
+    "password" : "stem123", 
+    "realname" : "测试账号2", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-05-23T23:35:32.050+0000")
+}
+{ 
+    "_id" : "43d2f0da-50a9-4081-8251-42484e2db238", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "gloria.dong.reimb", 
+    "password" : "stem123", 
+    "realname" : "董老师报销专用", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "MARKETING", 
+        "PUBLIC_RELATIONS", 
+        "BUSINESS_SUPPORT", 
+        "PROJECT_OPERATIONS", 
+        "BUSINESS_NORTH", 
+        "BUSINESS_SOUTH", 
+        "BUSINESS_WEST", 
+        "BUSINESS_EAST", 
+        "STRATEGY", 
+        "BUSINESS_DEVELOPMENT", 
+        "PRODUCT_MARKETING"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-17T10:13:05.748+0000")
+}
+{ 
+    "_id" : "3caf9f1f-6593-4357-85d7-17cfa3bbe8d4", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "xiao.luo", 
+    "password" : "stem123", 
+    "realname" : "罗萧", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PUBLIC_RELATIONS"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-10-22T07:34:19.366+0000"), 
+    "updated" : ISODate("2018-10-22T07:56:31.936+0000")
+}
+{ 
+    "_id" : "632c8a6f-9083-421e-9333-5eff95143222", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jun.han", 
+    "password" : "stem123", 
+    "realname" : "韩俊", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_OPERATIONS", 
+        "STRATEGY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-06-01T04:42:30.199+0000"), 
+    "updated" : ISODate("2018-11-01T02:32:28.339+0000")
+}
+{ 
+    "_id" : "333bca48-da76-4620-8076-4970410ac880", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "li.zeng", 
+    "password" : "stem123", 
+    "realname" : "曾力", 
+    "roles" : [
+        NumberInt(3)
+    ], 
+    "departments" : [
+        "EXECUTIVE"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2017-02-09T05:45:46.977+0000"), 
+    "updated" : ISODate("2018-11-01T03:11:48.573+0000")
+}
+{ 
+    "_id" : "11dfac0a-fa16-462d-a25f-58fbaf61d1ff", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "san.zhang", 
+    "password" : "stem123", 
+    "realname" : "张三", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "PROJECT_OPERATIONS", 
+        "BUSINESS_EAST"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-11-01T03:24:38.567+0000"), 
+    "updated" : ISODate("2018-11-01T03:27:04.722+0000")
+}
+{ 
+    "_id" : "5c619204-149f-493d-a2ef-34902a4e1666", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "yuezhang.lin", 
+    "password" : "stem123", 
+    "realname" : "林乐章", 
+    "roles" : [
+        NumberInt(2)
+    ], 
+    "departments" : [
+        "BUSINESS_DEVELOPMENT"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-08-27T02:51:50.842+0000"), 
+    "updated" : ISODate("2018-11-12T06:05:32.225+0000")
+}
+{ 
+    "_id" : "5e831c49-88f6-4bcd-ae76-a28f286d8f84", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "liang.chen", 
+    "password" : "Stem123", 
+    "realname" : "陈亮", 
+    "roles" : [
+        NumberInt(3)
+    ], 
+    "departments" : [
+        "TECHNOLOGY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-11-21T08:46:46.586+0000")
+}
+{ 
+    "_id" : "87630618-94e1-4b5c-8ba9-502a4257edc8", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "jingli.zong", 
+    "password" : "123", 
+    "realname" : "总经理", 
+    "roles" : [
+        NumberInt(25)
+    ], 
+    "departments" : [
+        "BUSINESS_NORTH"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-11-27T03:10:36.399+0000")
+}
+{ 
+    "_id" : "9731e91a-477d-46f5-9952-c03d3203f1de", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "stemtest110", 
+    "password" : "Stem123", 
+    "realname" : "liang.chen", 
+    "roles" : [
+        NumberInt(1)
+    ], 
+    "departments" : [
+        "TECHNOLOGY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-12-03T06:37:17.597+0000")
+}
+{ 
+    "_id" : "67f46713-2890-42b8-80b0-bada7d4cc74d", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "stemtest001", 
+    "password" : "Stem123", 
+    "realname" : "liang.chen", 
+    "roles" : [
+        NumberInt(3)
+    ], 
+    "departments" : [
+        "TECHNOLOGY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-12-03T06:38:29.017+0000")
+}
+{ 
+    "_id" : "04924b70-84be-46d1-a29b-4f99daaf965f", 
+    "className" : "com.liangzhi.erp.ui.domain.User", 
+    "username" : "123456", 
+    "password" : "123456", 
+    "realname" : "123456", 
+    "roles" : [
+        NumberInt(3)
+    ], 
+    "departments" : [
+        "TECHNOLOGY"
+    ], 
+    "state" : "ACTIVE", 
+    "manager" : false, 
+    "created" : ISODate("2018-12-03T06:47:37.422+0000")
+}
