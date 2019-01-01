@@ -45,10 +45,12 @@ a = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
 # [[ 1  2  3  4]
 #  [ 5  6  7  8]
 #  [ 9 10 11 12]]
+
 print(a)
 print(a[1])
 print(a[:,1])
 # Select a subregion and change it
+print('=========6==========')
 print(a[1:3, 1:3])
 a[1:3, 1:3] += 10
 print(a)
@@ -56,16 +58,21 @@ print(a)
 #  [ 5 16 17  8]
 #  [ 9 20 21 12]]
 
+print('=========7==========')
+# Broadcast a row vector across an operation on all rows
+print(a + [100, 101, 102, 103])
+# Conditional assignment on an array
+print(np.where(a < 10, a, 10))
 
+a = np.array(
+    [[ 1, 2, 3, 4],
+    [ 5, 16, 17, 8],
+    [ 9, 20, 21, 12]])
+# Conditional assignment on an array
+print('=========8==========')
+print(np.where(a < 10, a, 10))
 
-
-
-
-
-
-
-
-
+# http://www.numpy.org/
 
 
 
