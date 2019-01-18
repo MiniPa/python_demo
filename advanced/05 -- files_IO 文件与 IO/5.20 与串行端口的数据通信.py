@@ -4,7 +4,7 @@
 # 1.通过Python内置的 I/O 模块完成这个任务
 # 2.通过pySerial包完成这个任务
 
-import serial
+from pySerial import serial
 
 ser = serial.Serial('/dev/tty.usbmodem641', # Device name varies
                     baudrate=9600,
