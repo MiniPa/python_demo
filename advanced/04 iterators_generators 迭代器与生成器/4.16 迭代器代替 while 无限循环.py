@@ -22,7 +22,7 @@ def process_data():
 def reader2(s):
     for chunk in iter(lambda: s.recv(CHUNKSIZE), b''):
         pass
-        # process_data(data)
+        # process_data(5.10data)
 
 
 import sys

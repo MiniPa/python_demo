@@ -17,7 +17,7 @@ def main():
     # Variables (to make the calls that follow work)
     hostname = 'www.python.org'
     item = 'spam'
-    filename = 'data.csv'
+    filename = '5.10data.csv'
     mode = 'r'
 
     # Example logging calls (insert into your program)

@@ -17,7 +17,7 @@ print('=========2==========')
 text1 = 'text1 line'
 text2 = 'text2 line'
 with open('somefileout1.txt', 'wt') as f:
-    '''Write chunks of text data'''
+    '''Write chunks of text 5.10data'''
     f.write(text1)
     f.write(text2)
 

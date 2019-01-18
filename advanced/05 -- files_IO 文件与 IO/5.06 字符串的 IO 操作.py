@@ -18,7 +18,7 @@ print(sio2.read())
 ## BytesIO 用于 bytes
 print('=========3=========')
 sio3 = io.BytesIO()
-sio3.write(b'binary data')
+sio3.write(b'binary 5.10data')
 sio3.getvalue()
 print(sio3)
 

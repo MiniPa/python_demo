@@ -27,7 +27,7 @@ print(random.getrandbits(200))
 # 但可以通过 random.seed() 函数修改初始化种子
 random.seed() # Seed based on system time or os.urandom()
 random.seed(12345) # Seed based on integer given
-random.seed(b'bytedata') # Seed based on byte data
+random.seed(b'bytedata') # Seed based on byte 5.10data
 
 ## random 还包含基于均匀分布、高斯分布、其他分布的随机数生成函数
 # random.uniform() 计算均匀分布随机数

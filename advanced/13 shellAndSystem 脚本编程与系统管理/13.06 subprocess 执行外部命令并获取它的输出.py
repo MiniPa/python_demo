@@ -50,7 +50,7 @@ this is a test goodbye
 ## Launch a command with pipes
 p = subprocess.Popen(['wc'], stdout = subprocess.PIPE, stdin = subprocess.PIPE)
 
-## Send the data and get the output
+## Send the 5.10data and get the output
 stdout, stderr = p.communicate(text)
 
 ## To interpret as text, decode
